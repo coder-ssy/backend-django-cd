@@ -17,7 +17,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # SSH 설정 단계: 원격 서버에 접근하기 위한 SSH 키 설정
+      # SSH 설정 단계: 원격 서버에 접근하기 위한 SSH 키 설정 해주어ㅜ어ㅓ어
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.5.3
         with:
